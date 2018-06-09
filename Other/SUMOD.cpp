@@ -17,9 +17,9 @@ int mulmod(int a, int b)
         return a%= MOD;
     int a1 = mulmod(a, b/2);
     a1 = mulmod(a1, a1);
-    if (b%2 == 0)
-        return a1;
-    return addmod(a1, a);
+    if (b%2)
+        return addmod(a1, a);
+    return a1;
 }
 
 int main()
