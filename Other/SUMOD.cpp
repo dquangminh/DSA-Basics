@@ -9,6 +9,11 @@ int addmod(int a, int b)
     return a < d? a+b: a-d;
 }
 
+int mulmod(int a, int b)
+{
+    return 1;
+}
+
 int main()
 {
     int S = 0, N, x;
