@@ -1,0 +1,23 @@
+5
+5 -4 1 -3 1
+6
+-1000 -1000 -1000 1000 1000 1000
+0
+/*
+Input
+
+The input consists of several test cases.
+
+Each test case starts with the number of inhabitants N (2 ≤ N ≤ 100000).
+
+The following line contains n integers ai (-1000 ≤ ai ≤ 1000).
+
+If ai ≥ 0, it means that the inhabitant living in the ith house wants to buy ai bottles of wine. If ai < 0, he wants to sell -ai bottles of wine.
+
+You may assume that the numbers ai sum up to 0.
+
+The last test case is followed by a line containing 0.
+Output
+
+For each test case print the minimum amount of work units needed so that every inhabitant has his demand fulfilled.
+*/
