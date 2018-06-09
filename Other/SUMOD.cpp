@@ -19,7 +19,7 @@ int mulmod(int a, int b)
     a1 = mulmod(a1, a1);
     if (b%2)
         return addmod(a1, a);
-    return 0;
+    return a1;
 }
 
 int main()
