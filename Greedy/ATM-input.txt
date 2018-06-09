@@ -1,0 +1,16 @@
+2
+1000
+1
+7000
+1
+/*
+Input
+The input file consists of several datasets. The first line of the input file contains the number of datasets
+which is a positive integer and is not greater than 1000. The following lines describe the datasets.
+• The first line consists of one positive integer W (W ≤ 1018);
+• The second line consists of one positive integer c (c ≤ 15).
+Output
+For each dataset, write in one line two space-separated integers N and S where S is the number of ways
+to dispense the fewest number N of money notes. In case there is no way to serve the cash withdrawal
+request, write out 0 in one line instead.
+*/
