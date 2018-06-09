@@ -1,0 +1,18 @@
+1
+21 11
+4
+10 4
+6 2
+7 5
+15 10
+/*
+Input
+• The first line of input contains two integers: first W , the width of the original slab, and then H,
+the height of the original slab;
+• The second line contains one integer N: the number of desired plate sizes. The following N lines
+contain the desired plate sizes. Each of these lines contains two integers: first the width Wi and
+then the height Hi of that desired plate size (1 ≤ i ≤ N).
+Output
+For each dataset, write in one line a single integer: the minimum total area of the original slab that must
+be wasted.
+*/
