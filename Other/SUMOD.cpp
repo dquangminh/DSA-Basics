@@ -11,7 +11,15 @@ int addmod(int a, int b)
 
 int mulmod(int a, int b)
 {
-    return 1;
+    if (a == 0)
+        return 0;
+    if (b <= 1 || a == 1)
+        return a%= MOD;
+    int a1 = mulmod(a, b/2);
+    a1 = mulmod(a1, a1);
+    if (b%2 == 0)
+        return a1;
+    return addmod(a1, a);
 }
 
 int main()
